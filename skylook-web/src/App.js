@@ -1,11 +1,11 @@
 import './App.css';
-import Navbar from './components/Navbar';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Navbarsite from './components/Navbar';
 function App() {
   return (
     <>
     <Router>
-    <Navbar />
+    <Navbarsite />
     <Routes>
       <Route path='/' exact />
     </Routes>
