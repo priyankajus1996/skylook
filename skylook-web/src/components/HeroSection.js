@@ -31,6 +31,11 @@ function HeroSection() {
           WATCH TRAILER <i className='far fa-play-circle' />
         </Button> */}
       </div> 
+      <div class="ocean">
+  <div class="wave"></div>
+  <div class="wave"></div>
+  <div class="wave"></div>
+</div>
     </div>
   );
 }
