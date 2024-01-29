@@ -2,11 +2,12 @@ import React, { useState } from 'react';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
+import './Navbar.css';
 
 function Navbarsite() {
     return (
         <>
-        <Navbar bg="light" data-bs-theme="light">
+        <Navbar bg="light" data-bs-theme="light" className="nav-sticky" >
           <Container>
           <Navbar.Brand href="#home">
             <img
@@ -24,7 +25,6 @@ function Navbarsite() {
             </Nav>
           </Container>
         </Navbar>
-        <br />
       </>
   
     )

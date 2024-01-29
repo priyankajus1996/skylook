@@ -1,15 +1,15 @@
 import './App.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbarsite from './components/Navbar';
+import Home from './components/pages/Home';
+
 function App() {
   return (
     <>
-    <Router>
     <Navbarsite />
     <Routes>
-      <Route path='/' exact />
+      <Route exact path="/" element={<Home/>} />
     </Routes>
-    </Router>
     </>
   );
 }
