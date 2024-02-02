@@ -1,0 +1,18 @@
+.about-container{
+    z-index: 2;
+    /* background-color: white; */
+    text-align: center;
+    width:100%;
+    padding:40px 250px 40px 250px;
+    background: rgb(124,227,116);
+    background: linear-gradient(0deg, rgba(124,227,116,1) 0%, rgba(45,252,253,0.9781162464985994) 100%);
+}
+ 
+   .about-container h1 {
+     line-height: 2;
+    }
+    .about-container p {
+      font-size: 20px;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+        'Lucida Sans', Arial, sans-serif;
+    }
