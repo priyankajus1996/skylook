@@ -1,0 +1,10 @@
+@import "react-alice-carousel/lib/alice-carousel.css";
+
+
+.img_slider{
+    background-color: white;
+}
+.img_slider ul.alice-carousel__stage img{
+    width:100%;
+    height:100%;
+}
